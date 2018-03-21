@@ -4,6 +4,7 @@ package com.example.chua.midtermexam;
  * Created by Chua on 2/13/2017.
  */
 
+
 public class Album {
     private String name;
     private String artist;

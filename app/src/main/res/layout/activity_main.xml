@@ -17,13 +17,16 @@
         android:text="Search album by artist"
         android:textSize="14sp"
         android:textColor="#E71919"/>
+
     <EditText
-        android:layout_below="@id/label"
         android:id="@+id/searchTxt"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/label"
         android:imeOptions="actionSearch"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"

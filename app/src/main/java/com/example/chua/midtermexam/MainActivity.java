@@ -100,14 +100,14 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         if(id == ALBUM_LOADER_ID1) {
             uriBuilder.appendQueryParameter("method", "artist.gettopalbums");
             uriBuilder.appendQueryParameter("artist", getSearch()); // edit later
-            uriBuilder.appendQueryParameter("api_key", "12696eb0c1e42d1b92a4293a54269236");
+            uriBuilder.appendQueryParameter("api_key", "3033421dd639a1dda6f55f118c1b1d9b");
             uriBuilder.appendQueryParameter("limit", "50");
             uriBuilder.appendQueryParameter("format", "json");
         }
         else if (id == ALBUM_LOADER_ID2){
             uriBuilder.appendQueryParameter("method", "album.search");
             uriBuilder.appendQueryParameter("album", getSearch()); // edit later
-            uriBuilder.appendQueryParameter("api_key", "12696eb0c1e42d1b92a4293a54269236");
+            uriBuilder.appendQueryParameter("api_key", "3033421dd639a1dda6f55f118c1b1d9b");
             uriBuilder.appendQueryParameter("limit", "50");
             uriBuilder.appendQueryParameter("format", "json");
         }

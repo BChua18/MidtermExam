@@ -46,8 +46,9 @@
             android:layout_below="@id/album_title"
             android:layout_marginRight="15dp"
             android:layout_marginTop="5dp"
+            android:layout_alignStart="@id/album_title"
+            android:layout_alignLeft="@id/album_title" />
 
-            android:layout_alignStart="@id/album_title" />
         <TextView
             android:layout_below="@+id/line"
             android:id="@+id/album_artist"
@@ -62,7 +63,7 @@
             android:layout_alignStart="@+id/album_title"
             android:text="This feeding program reminds me of that kid that inspired me a lot to do good things"
             android:maxLength="90"
-            />
+            android:layout_alignLeft="@+id/album_title" />
 
     </RelativeLayout>
 
